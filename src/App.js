@@ -5,6 +5,7 @@ import DemoUseState from "./page/DemoUseState/DemoUseState"
 import DemoContextReducer from "./page/DemoContextAndReducer/DemoContextReducer"
 import DemoUseEffect from "./page/DemoUseEffect/DemoUseEffect"
 import DemoUseMemoAndUseCallback from "./page/DemoUseMemoAndUseCallback/DemoUseMemoAndUseCallback"
+import DemoUseRef from "./page/DemoUseRef/DemoUseRef"
 
 const App = () => {
   return (
@@ -26,6 +27,9 @@ const App = () => {
       <hr/>
       <h2>DemoUseMemoAndUseCallback</h2>
       <DemoUseMemoAndUseCallback/>
+      <hr/>
+      <h2>DemoUseRef</h2>
+      <DemoUseRef/>
     </>
   )
 }
