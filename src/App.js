@@ -3,6 +3,7 @@ import DemoUseReducer from "./page/DemoUseReducer/DemoUseReducer"
 import DemoUseContext from "./page/DemoUseContext/DemoUseContext"
 import DemoUseState from "./page/DemoUseState/DemoUseState"
 import DemoContextReducer from "./page/DemoContextAndReducer/DemoContextReducer"
+import DemoUseEffect from "./page/DemoUseEffect/DemoUseEffect"
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
       <hr/>
       <h2>DemoContextReducer</h2>
       <DemoContextReducer/>
+      <hr/>
+      <h2>DemoUseEffect</h2>
+      <DemoUseEffect/>
     </>
   )
 }
