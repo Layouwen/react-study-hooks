@@ -2,7 +2,7 @@ import React from "react"
 import DemoUseReducer from "./page/DemoUseReducer/DemoUseReducer"
 import DemoUseContext from "./page/DemoUseContext/DemoUseContext"
 import DemoUseState from "./page/DemoUseState/DemoUseState"
-import DemoContextReducer from "./page/DemoContextAndReducer/DemoReducerOrRedux"
+import DemoContextReducer from "./page/DemoContextAndReducer/DemoContextReducer"
 
 const App = () => {
   return (

@@ -24,7 +24,8 @@ const reducer = (state, action) => {
 // 创建Context
 const Context = createContext(null)
 
-const DemoReducerOrRedux = () => {
+const DemoContextReducer = () => {
+  // 创建数据读写的API
   const [state, dispatch] = useReducer(reducer, store)
   return (
     <Context.Provider value={{state, dispatch}}>
@@ -79,7 +80,7 @@ const Movies = () => {
   )
 }
 
-export default DemoReducerOrRedux
+export default DemoContextReducer
 
 // 模拟请求数据
 function ajax(path) {
