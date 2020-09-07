@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import DemoUseReducer from "./page/DemoUseReducer/DemoUseReducer"
+import DemoUseContext from "./page/DemoUseContext/DemoUseContext"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <h2>DemoUseReducer</h2>
+      <DemoUseReducer/>
+      <hr/>
+      <h2>DemoUseContext</h2>
+      <DemoUseContext/>
+    </>
+  )
 }
 
-export default App;
+export default App
