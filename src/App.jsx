@@ -8,6 +8,7 @@ import DemoUseMemoAndUseCallback from "./page/DemoUseMemoAndUseCallback/DemoUseM
 import DemoUseRef from "./page/DemoUseRef/DemoUseRef"
 import DemoImperativeHandle from "./page/DemeImperativeHandle/DemoImperativeHandle"
 import DemoForwardRef from "./page/DemoForwardRef/DemoForwardRef"
+import DemoCustomHook from "./page/DemoCustomHook/DemoCustomHook"
 
 const App = () => {
   return (
@@ -38,6 +39,9 @@ const App = () => {
       <hr/>
       <h2>DemoForwardRef</h2>
       <DemoForwardRef/>
+      <hr/>
+      <h2>DemoCustomHook</h2>
+      <DemoCustomHook/>
     </>
   )
 }
