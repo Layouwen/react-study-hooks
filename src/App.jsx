@@ -6,6 +6,7 @@ import DemoContextReducer from "./page/DemoContextAndReducer/DemoContextReducer"
 import DemoUseEffect from "./page/DemoUseEffect/DemoUseEffect"
 import DemoUseMemoAndUseCallback from "./page/DemoUseMemoAndUseCallback/DemoUseMemoAndUseCallback"
 import DemoUseRef from "./page/DemoUseRef/DemoUseRef"
+import DemoImperativeHandle from "./page/DemeImperativeHandle/DemoImperativeHandle"
 import DemoForwardRef from "./page/DemoForwardRef/DemoForwardRef"
 
 const App = () => {
@@ -31,6 +32,9 @@ const App = () => {
       <hr/>
       <h2>DemoUseRef</h2>
       <DemoUseRef/>
+      <hr/>
+      <h2>DemoImperativeHandle</h2>
+      <DemoImperativeHandle/>
       <hr/>
       <h2>DemoForwardRef</h2>
       <DemoForwardRef/>
